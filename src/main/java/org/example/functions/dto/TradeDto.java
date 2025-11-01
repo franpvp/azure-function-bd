@@ -14,6 +14,7 @@ import java.time.LocalDate;
 public class TradeDto {
     private Long idTrade;
     private Long monto;
+    private String canal;
     private LocalDate fechaCreacion;
     private Long idCliente;
 }
